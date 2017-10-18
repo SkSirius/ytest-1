@@ -1,0 +1,79 @@
+{
+    "albums": [
+        {
+            "id": 0,
+            "name": "Adele",
+            "description": "Adele songs",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Video 1",
+                    "description": "Video 1 description",
+                    "url": "https://www.youtube.com/embed/YQHsXMglC9A"
+                },
+                {
+                    "id": 1,
+                    "name": "Video 2",
+                    "description": "Video 1 description",
+                    "url": "https://www.youtube.com/embed/hLQl3WQQoQ0"
+                },
+                {
+                    "id": 2,
+                    "name": "Video 3",
+                    "description": "Video 1 description",
+                    "url": "https://www.youtube.com/embed/rYEDA3JcQqw"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Ed Sheeran",
+            "description": "Ed Sheeran songs",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Video 1",
+                    "description": "Video 1 description",
+                    "url": "https://www.youtube.com/embed/2fngvQS_PmQ"
+                },
+                {
+                    "id": 1,
+                    "name": "Video 2",
+                    "description": "Video 1 description",
+                    "url": "https://www.youtube.com/embed/OVO4LhrOFiY"
+                },
+                {
+                    "id": 2,
+                    "name": "Video 3",
+                    "description": "Video 1 description",
+                    "url": "https://www.youtube.com/embed/JGwWNGJdvx8"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "AC/DC",
+            "description": "AC/DC songs",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Video 1",
+                    "description": "Video 1 description",
+                    "url": "https://www.youtube.com/embed/gEPmA3USJdI"
+                },
+                {
+                    "id": 1,
+                    "name": "Video 2",
+                    "description": "Video 1 description",
+                    "url": "https://www.youtube.com/embed/v2AC41dglnM"
+                },
+                {
+                    "id": 2,
+                    "name": "Video 3",
+                    "description": "Video 1 description",
+                    "url": "https://www.youtube.com/embed/Lo2qQmj0_h4"
+                }
+            ]
+        }
+    ]
+}

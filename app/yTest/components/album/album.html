@@ -1,0 +1,18 @@
+<div class='container text-center'>
+    <h1>{{album.album.name}}</h1>
+    <p>{{ album.album.description}}</p>
+    <div class='row'>
+        <div ng-repeat='item in album.album.items' class='col-md-4'>
+            <div class='jumbotron'>
+                <a ui-sref='video({albumId: album.album.id, id: item.id })'> 
+                    <p>{{ item.name }}</p>
+                    <p>{{ item.description }}</p>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <div class='row text-center'>
+        <button class='btn btn-success' ng-click="album.open()">Add new video</button>
+    </div>
+</div>

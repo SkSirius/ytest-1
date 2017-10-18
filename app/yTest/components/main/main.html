@@ -1,0 +1,11 @@
+
+<div class='container'>
+    <h3 class='text-center'>Available albums:</h3>
+    <div class='row'>
+        <div ng-repeat='album in main.albums' class='col-md-4'>
+            <div class='jumbotron text-center'>
+                <a ui-sref='album({ id: album.id })'>{{album.name}}</a>
+            </div>
+        </div>
+    </div>
+</div>

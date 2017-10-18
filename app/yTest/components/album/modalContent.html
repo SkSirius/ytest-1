@@ -1,0 +1,21 @@
+<div class="modal-header">
+    <h3 class="modal-title" id="modal-title">Add new video</h3>
+</div>
+<div class="modal-body" id="modal-body">
+    <div class="form-group">
+        <label class='control-label' for="name">Video name:</label>
+        <input ng-model='modalItem.newVideo.name' type="text" class="form-control" id="name">
+    </div>
+    <div class="form-group">
+        <label class='control-label' for="desc">Video description:</label>
+        <input ng-model='modalItem.newVideo.description' type="text" class="form-control" id="desc">
+    </div>
+    <div class="form-group">
+        <label class='control-label' for="name">Video URL:</label>
+        <input ng-model='modalItem.newVideo.url' type="text" class="form-control" id="url">
+    </div>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="modalItem.ok()" type="button">OK</button>
+    <button class="btn btn-warning" ng-click="modalItem.cancel()" type="button">Cancel</button>
+</div>
